@@ -1,0 +1,97 @@
+body {
+  text-align: center;
+}
+
+#container {
+  border: 1px solid blue;
+  border-radius: 5px;
+  min-width: 250px;
+  width: 250px;
+  margin: auto;
+  background: linear-gradient(to right, rgba(125,191,222,1) 0%, rgba(45,72,98,1) 100%);
+  padding: 15px;
+  -webkit-box-shadow: 3px 10px 13px 0px rgba(0,0,0,0.54);
+  -moz-box-shadow: 3px 10px 13px 0px rgba(0,0,0,0.54);
+  box-shadow: 3px 10px 13px 0px rgba(0,0,0,0.54);
+}
+
+input {
+  box-sizing: content-box;
+  width: 220px;
+  height: 30px;
+  margin: auto;
+  text-align: right;
+  border: none;
+  display: block;
+  padding-right: 2px;
+}
+
+#input-main {
+  margin-bottom: 15px;
+  font-size: 1.2em;
+}
+
+#input-secondary {
+  margin-top: 20px;
+  font-size: 0.85em;
+  letter-spacing: 0.1em;
+}
+
+/* xxx CALCULATOR xxx */
+
+#calculator-basic {
+  box-sizing: content-box;
+  display: flex;
+  width: 220px;
+  margin: auto;
+}
+
+.div-buttons-row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+
+.div-buttons-row button {
+  width: 25%;
+  min-height: 50px;
+  font-size: 1.1em;
+}
+
+.div-buttons-column {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.div-buttons-column button {
+  width: 100%;
+  min-height: 50px;
+  font-size: 1.1em;
+}
+
+#equal {
+  flex: 1;
+}
+
+#zero {
+  flex: 1;
+}
+/* xxx ADDITIONAL STYLING xxx */
+
+.expressions:not(.operators) {
+  color: blue;
+  font-weight: bold;
+}
+
+/* button[data-func-access="DivByTen"] {
+  font-size: 0.8em;
+  font-weight: bold;
+} */
+
+/* Used to disable caret in IE11 */
+[readonly="readonly"] {
+  pointer-events: none;
+}

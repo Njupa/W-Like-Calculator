@@ -1,0 +1,12 @@
+List of things to do in the future (in any order):
+
+ - Make comma (dot) appear after every three digits counting from right to left for readability (1.000.000 instead 1000000);
+ - Remake rules.js completely, if possible to avoid if\then\switch\case nightmare and for cleaner code;
+ - *Consider merging calculator.js and rules.js after rules.js remake;
+ - Make my own parser and remove math.js library;
+ - Make calculator responsive for all devices;
+ - Add memory management buttons (M+, M- etc);
+ - *Consider making memory management as widgets (might be complicated for phone versions);
+ - Add more useful comments inside code itself.
+
+ * - Things to consider doing.

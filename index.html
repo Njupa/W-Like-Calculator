@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Calculator</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Calculator</h1>
+    <div id="container">
+      <input type="text" id="input-secondary" readonly="readonly" />
+      <input type="text" id="input-main" readonly="readonly" />
+
+      <div id="calculator-basic">
+
+        <div class="div-buttons-row">
+          <button type="button" class="special" data-func-access="Larr">&larr;</button>
+          <button type="button" class="special" data-func-access="CE">CE</button>
+          <button type="button" class="special" data-func-access="C">C</button>
+          <button type="button" class="expressions operators">(</button>
+
+          <button type="button" class="expressions">7</button>
+          <button type="button" class="expressions">8</button>
+          <button type="button" class="expressions">9</button>
+          <button type="button" class="expressions operators">/</button>
+
+          <button type="button" class="expressions">4</button>
+          <button type="button" class="expressions">5</button>
+          <button type="button" class="expressions">6</button>
+          <button type="button" class="expressions operators">*</button>
+
+
+          <button type="button" class="expressions">1</button>
+          <button type="button" class="expressions">2</button>
+          <button type="button" class="expressions">3</button>
+          <button type="button" class="expressions operators">-</button>
+
+          <button type="button" class="expressions" id="zero">0</button>
+          <button type="button" class="expressions operators">.</button>
+          <button type="button" class="expressions operators">+</button>
+        </div>
+        <div class="div-buttons-column">
+          <button type="button" class="expressions operators">)</button>
+          <button type="button" class="special" data-func-access="PlusMn">&plusmn;</button>
+          <button type="button" class="special" data-func-access="Pi">&pi;</button>
+          <button type="button" id="equal">=</button>
+        </div>
+
+      </div>
+
+    </div>
+    <!-- Load Scripts -->
+
+    <script src="scripts/calculator.js"></script>
+    <script src="scripts/rules.js"></script>
+    <script src="scripts/lib/math.min.js"></script>
+  </body>
+</html>
