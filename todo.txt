@@ -7,6 +7,7 @@ List of things to do in the future (in any order):
  - Make calculator responsive for all devices;
  - Add memory management buttons (M+, M- etc);
  - *Consider making memory management as widgets (might be complicated for phone versions);
- - Add more useful comments inside code itself.
+ - Add more useful comments inside code itself:
+ - Make calculator more graphicaly pleasing to the eye.
 
  * - Things to consider doing.
