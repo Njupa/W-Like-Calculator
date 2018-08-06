@@ -1,6 +1,6 @@
 # W-Like-Calculator
 
-W-Like Calculator is a simple, wip calculator that at least tries to replicates the one that comes with Windows. You are all welcome to contribute or drop advice or two regarding this project. If you have free time, please take a look at the code and todo.txt file if you're willing to help.
+W-Like Calculator is a simple, wip calculator that at least tries to replicate the one that comes with Windows. You are all welcome to contribute or drop advice or two regarding this project. If you have free time, please take a look at the code and todo.txt file if you're willing to help.
 
 ##About Author
 
